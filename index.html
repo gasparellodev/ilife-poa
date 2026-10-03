@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5f7">
+  <meta name="description" content="Conheça a iLife Poá, explore os modelos de iPhone e converse com a nossa equipe. Sua próxima conexão começa em Poá.">
+  <meta property="og:title" content="iLife Poá — Seu próximo iPhone, mais perto.">
+  <meta property="og:description" content="Explore o catálogo de iPhones e conheça a iLife Poá.">
+  <meta property="og:type" content="website">
+  <title>iLife Poá — Seu próximo iPhone, mais perto.</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231d1d1f'/%3E%3Ctext x='32' y='46' text-anchor='middle' fill='white' font-family='Arial' font-size='43' font-weight='bold'%3Ei%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="index.html" aria-label="iLife Poá, início">iLife<span>Poá</span><span class="brand-dot">.</span></a>
+      <div class="nav-links" id="nav-links"><a href="#catalogo">iPhones</a><a href="#sobre">A iLife</a><a href="#duvidas">Dúvidas</a><a href="bio.html">Link na bio</a></div>
+      <a class="nav-contact" data-contact href="https://www.instagram.com/ilife_poa/" target="_blank" rel="noopener noreferrer">Fale com a gente</a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-controls="nav-links" aria-expanded="false"><span></span><span></span></button>
+    </nav>
+  </header>
+  <main id="conteudo">
+    <div class="announcement"><p>Seu próximo iPhone começa com uma boa conversa. <a href="#catalogo">Encontre o seu.</a></p></div>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow hero-enter">iLIFE POÁ · IPHONES EM POÁ, SP</p>
+        <h1 id="hero-title" class="hero-enter">Seu próximo iPhone.<br><span>Mais perto de você.</span></h1>
+        <p class="hero-description hero-enter">O iPhone que combina com a sua vida.<br>Com a atenção de quem está pertinho.</p>
+        <div class="hero-actions hero-enter"><a class="button button-blue" href="#catalogo">Explorar iPhones</a><a class="text-link" href="#sobre">Conheça a iLife</a></div>
+      </div>
+      <div class="hero-image-wrap hero-enter"><img class="hero-image" src="assets/hero.jpg" width="1200" height="630" alt="iPhone 16 em diferentes cores, vistos de frente e de trás" fetchpriority="high"></div>
+      <div class="hero-bottom"><span>Feito para o seu dia. Escolhido por você.</span><a href="#catalogo" aria-label="Ir ao catálogo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a></div>
+    </section>
+    <section class="catalog section container" id="catalogo" aria-labelledby="catalog-title">
+      <div class="section-heading reveal"><div><p class="eyebrow">ENCONTRE O SEU</p><h2 id="catalog-title">Um iPhone.<br>Infinitas possibilidades.</h2></div><p>Para criar, trabalhar, se conectar.<br>Qual combina com você?</p></div>
+      <div class="catalog-toolbar reveal"><div class="filters" role="group" aria-label="Filtrar modelos"><button class="filter active" data-filter="all" aria-pressed="true">Todos os modelos</button><button class="filter" data-filter="16" aria-pressed="false">Linha 16</button><button class="filter" data-filter="pro" aria-pressed="false">Linha Pro</button><button class="filter" data-filter="essentials" aria-pressed="false">Essenciais</button></div><span class="catalog-count" id="catalog-count" aria-live="polite"></span></div>
+      <div class="product-grid" id="product-grid"></div>
+      <p class="catalog-note">Modelos ilustrativos. Consulte nossa equipe para confirmar cores, capacidades, valores e disponibilidade.</p>
+    </section>
+    <section class="feature-section" aria-labelledby="feature-title">
+      <div class="feature-panel container reveal">
+        <div class="feature-copy"><p class="eyebrow">IPHONE 16</p><h2 id="feature-title">Uma cor.<br>Seu jeito inteiro.</h2><p>Uma câmera para guardar os seus momentos.<br>Desempenho para acompanhar o seu ritmo.<br>E uma cor que é a sua cara.</p><button class="button button-blue" data-product="iphone16">Conhecer o iPhone 16</button><div class="feature-colors" role="group" aria-label="Escolher cor do iPhone 16"></div><p class="color-caption" id="feature-color-name">Verde-acinzentado</p></div>
+        <div class="feature-image"><img id="feature-phone" src="assets/iphone-16-teal.png" width="940" height="1112" alt="iPhone 16 verde-acinzentado" loading="lazy"></div>
+      </div>
+    </section>
+    <section class="about section container" id="sobre" aria-labelledby="about-title">
+      <div class="section-heading reveal"><div><p class="eyebrow">PRAZER, SOMOS A iLIFE</p><h2 id="about-title">Tecnologia de ponta.<br>Conversa de perto.</h2></div></div>
+      <div class="about-grid"><div class="about-story reveal"><p class="large-copy">Somos a iLife Poá.<br>iPhones, acessórios e assistência no Centro de Poá, ao lado da estação.</p><p>A gente acredita que escolher um iPhone começa por entender o que faz sentido para você. Por isso, a conversa vem primeiro: seus planos, seu dia a dia e o que você procura.</p><a class="text-link" href="https://www.instagram.com/ilife_poa/" target="_blank" rel="noopener noreferrer">Conheça nosso Instagram</a></div><div class="about-values reveal"><article><span class="value-number">01</span><div><h3>Escolha com informação.</h3><p>Entenda as diferenças entre os modelos e encontre o que acompanha o seu ritmo.</p></div></article><article><span class="value-number">02</span><div><h3>Atendimento de verdade.</h3><p>Fale com a nossa equipe, tire suas dúvidas e combine os próximos passos.</p></div></article><article><span class="value-number">03</span><div><h3>Aqui, em Poá.</h3><p>Nossa loja física fica no Centro de Poá, ao lado da estação. Consulte os horários e venha conversar.</p></div></article></div></div>
+    </section>
+    <section class="journey"><div class="container"><div class="journey-heading reveal"><p class="eyebrow">SIMPLES, DO SEU JEITO</p><h2>Da primeira dúvida<br>ao próximo iPhone.</h2></div><div class="journey-grid"><article class="reveal"><div class="step-index">1</div><h3>Explore os modelos.</h3><p>Veja os detalhes e descubra as possibilidades para o seu dia a dia.</p></article><article class="reveal"><div class="step-index">2</div><h3>Converse com a gente.</h3><p>Consulte as opções, valores e disponibilidade diretamente com a equipe.</p></article><article class="reveal"><div class="step-index">3</div><h3>Combine os detalhes.</h3><p>Defina com a loja a melhor forma de concluir a compra e receber seu aparelho.</p></article></div></div></section>
+    <section class="faq section container" id="duvidas" aria-labelledby="faq-title"><div class="faq-intro reveal"><p class="eyebrow">ANTES DE ESCOLHER</p><h2 id="faq-title">Dúvidas?<br>A gente conversa.</h2><p>Uma boa escolha começa<br>com respostas claras.</p><a class="text-link" data-contact href="https://www.instagram.com/ilife_poa/" target="_blank" rel="noopener noreferrer">Falar com a equipe</a></div><div class="faq-list reveal"><details><summary>Como compro meu iPhone?<span aria-hidden="true">+</span></summary><p>Explore o catálogo, escolha um modelo e fale com a equipe pelo Instagram. A loja confirma as opções disponíveis, os valores e os próximos passos para a compra.</p></details><details><summary>Posso pagar pelo site?<span aria-hidden="true">+</span></summary><p>O site é um catálogo para você conhecer os aparelhos. O atendimento e as condições de pagamento são combinados diretamente com a loja.</p></details><details><summary>Quais cores e capacidades estão disponíveis?<span aria-hidden="true">+</span></summary><p>As opções variam por modelo e disponibilidade. No catálogo você encontra referências; nossa equipe confirma as cores e capacidades que podem ser adquiridas.</p></details><details><summary>Vocês aceitam meu aparelho na troca?<span aria-hidden="true">+</span></summary><p>Converse com a equipe sobre a possibilidade de troca. Informe o modelo, a capacidade e o estado do seu aparelho para consultar as condições.</p></details><details><summary>Onde fica a iLife Poá?<span aria-hidden="true">+</span></summary><p>Nossa loja física fica no Centro de Poá, São Paulo, ao lado da estação. Peça à equipe o endereço completo e os horários de atendimento antes de planejar sua visita.</p></details></div></section>
+    <section class="contact-section"><div class="container reveal"><p class="eyebrow">VAMOS ENCONTRAR O SEU?</p><h2>O próximo passo<br>é uma conversa.</h2><p>Conte o que você procura.<br>A gente ajuda você a escolher.</p><a class="button button-blue" data-contact href="https://www.instagram.com/ilife_poa/" target="_blank" rel="noopener noreferrer">Fale com a iLife Poá</a><a class="contact-handle" href="https://www.instagram.com/ilife_poa/" target="_blank" rel="noopener noreferrer">@ilife_poa</a></div></section>
+  </main>
+  <footer class="footer"><div class="container"><div class="footer-top"><a class="brand" href="index.html">iLife<span>Poá</span><span class="brand-dot">.</span></a><p>Seu próximo iPhone, mais perto.</p><div><a href="bio.html">Link na bio</a><a href="https://www.instagram.com/ilife_poa/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="#catalogo">Catálogo</a></div></div><div class="footer-bottom"><span>© <span data-year>2026</span> iLife Poá.</span><span>Poá, São Paulo, Brasil</span><span>iLife Poá é uma loja independente. Apple e iPhone são marcas da Apple Inc.</span></div></div></footer>
+  <dialog class="product-dialog" id="product-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Fechar detalhes"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><div id="dialog-content"></div></dialog>
+  <div class="toast" role="status" aria-live="polite" id="toast"></div>
+</body>
+</html>
